@@ -112,4 +112,6 @@ img{
 	font-size: var(--small-font-size);
 	color:var(--first-color-darken);
 	text-align: center;
+	font-weight: var(--font-bold);
+	margin-bottom: .25rem;
 }
