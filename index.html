@@ -1,22 +1,487 @@
 <!DOCTYPE html>
 <html lang="es-mx">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portafolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 </head>
+
 <body>
+    <!--==== HEADER ===-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
 
-	<!--==== HEADER ===-->
+            <div>
+                <a href="#" class="nav__logo">Harris</a>
+            </div>
 
-	<main class="l-main">
-		
-	</main>
-	
-	<!--==== FOOTER ===-->
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
 
-	<script type="text/javascript" src="assets/js/main.js"></script>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#works" class="nav__link">Works</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!-- === HOME === -->
+        <section id="home" class="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/perfil.png" alt="" />
+                    </div>
+
+                    <h1 class="home__title">Harris Willian</h1>
+                    <span class="home__profession">Frontend Developer</span>
+
+                    <div class="home__social">
+                        <a href="#" class="home__social-link"><i class="bx bxl-linkedin"></i
+              ></a>
+                        <a href="#" class="home__social-link"><i class="bx bxl-github"></i
+              ></a>
+                        <a href="#" class="home__social-link"><i class="bx bxl-dribbble"></i
+              ></a>
+                        <a href="#" class="home__social-link"><i class="bx bxl-behance"></i
+              ></a>
+                    </div>
+
+                    <a href="#" class="button home__button">Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <!-- === ABOUT === -->
+        <section id="about" class="about section">
+            <spam class="section-subtitle">My intro</spam>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In enim quas eaque officia nostrum rem soluta non amet sequi odit doloremque sunt sed dolorum impedit placeat dolor, facilis vel itaque!
+                    </p>
+                    <img class="about__img" src="assets/img/about.png" alt="" />
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-user about__information-icon"></i>
+                            <span>Harris Willian</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-phone about__information-icon"></i>
+                            <span>999-888-777</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-envelope about__information-icon"></i>
+                            <span>user@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="about__information">
+                        <h3 class="about__information-title">Experience and support</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-medal about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">5 Years Job</span>
+                                <span class="about__information-subtitle-small">Experience</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-briefcase about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">50+ Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span
+                  >
+                </div>
+              </div>
+
+              <div class="about__information-data">
+                <i class="bx bx-support about__information-icon"></i>
+                <div>
+                  <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SKILLS === -->
+        <section id="skills" class="skills section">
+            <span class="section-subtitle">Why Choose Me</span>
+            <h2 class="section-title">My expertise Area</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Frontend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Html/css</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">React</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Angular</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">PHP</span>
+                        <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__php"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">C#</span>
+                        <span class="skills__number">90%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">SQL</span>
+                        <span class="skills__number">60%</span>
+                        <span class="skills__bar skills__html"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === EDUCATION === -->
+        <section class="education section">
+            <span class="section-subtitle">Qualification</span>
+            <h2 class="section-title">My Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2010-2013</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">University of Studies</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2010-2013</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">University of Studies</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2010-2013</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">University of Studies</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div>
+                        <h3 class="education__year">2010-2013</h3>
+                        <span class="education__university">University of Studies</span>
+                    </div>
+
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div>
+                        <h3 class="education__race">Diploma Development</h3>
+                        <span class="education__specialty">University of Studies</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === SERVICES === -->
+        <section id="services" class="services section">
+            <span class="section-subtitle">What I Offer</span>
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+
+                <div class="services__content">
+                    <i class="bx bx-code services__icon"></i>
+                    <h3 class="services__title">Web Desimg</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti itaque error sequi, omnis ipsam commodi incidunt, eligendi libero exercitationem dignissimos. Vitae accusamus animi voluptate eum labore praesentium saepe sed.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- === PROJECT IN MIND === -->
+        <section class="project section">
+            <div class="project__container bd-grid">
+                <div class="project__data">
+                    <h2 class="section-title project__title">
+                        Do you have a project in mind
+                    </h2>
+                    <p class="project__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus quo obcaecati quidem incidunt asperiores et consequatur cum repudiandae delectus, odio recusandae ratione deserunt dignissimos libero tenetur quis atque veniam.
+                    </p>
+                    <a href="#contact" class="button button__light">Contact Me</a>
+                </div>
+                <img class="project__img" src="/assets/img/projectmind.png" alt="" />
+            </div>
+        </section>
+        <!-- === WORKS === -->
+        <section id="works" class="works section">
+            <span class="section-subtitle">My portafolio</span>
+            <h2 class="section-title">Recent Works</h2>
+
+            <div class="works__container bd-grid">
+                <div class="works__img">
+                    <img src="assets/img/work1.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 1</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work2.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 2</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work3.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 3</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work4.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 4</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work5.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 5</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/work6.jpg" alt="" />
+
+                    <div class="works__data">
+                        <a href="#" class="works__link">
+                            <i class="bx bx-link-alt"></i>
+                        </a>
+                        <span class="works__title">Work 6</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- === CONTACT === -->
+        <section id="contact" class="contact section">
+            <span class="section-subtitle">Contact Me</span>
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input" />
+                        <input type="mail" placeholder="Email" class="contact__input" />
+                    </div>
+
+                    <input type="text" placeholder="Project" class="contact__input" />
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                    <input type="submit" value="Send Message" class="button contact__button" />
+                </form>
+
+                <div>
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">999-000-123</span>
+                        <span class="contact__text">999-000-123</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">999-000-123</span>
+                        <span class="contact__text">999-000-123</span>
+                    </div>
+
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Call me</h3>
+                        <span class="contact__text">999-000-123</span>
+                        <span class="contact__text">999-000-123</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==== FOOTER ===-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <h1 class="footer__title">Harris</h1>
+            <p class="footer__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic mollitia pariatur veritatis sed laboriosam dicta et aut soluta, nemo vero tempore deserunt explicabo voluptas beatae ut ad? Saepe, cupiditate error?
+            </p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__link"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer__link"><i class="bx bxl-twitter"></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by 2020</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
+
 </html>
